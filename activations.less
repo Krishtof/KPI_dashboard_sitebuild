@@ -1,0 +1,92 @@
+// Variables
+@import "colors.less";
+@import "dimensions.less";
+
+
+.activations {
+    background-color: white;
+    min-height: 336px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+
+    @media @desktop {
+        padding: 25px;
+        padding-bottom: 0;
+    }
+
+    .dropdownrow {
+        margin-bottom: 10px;
+
+        .dropdown {
+            .dropdown-toggle {
+                background-color: transparent;
+                color: black;
+                text-transform: uppercase;
+                border: 1px solid #dadada;
+            }
+        }
+    }
+
+    .chartsrow {
+        .left {
+            background-color: #e1dfe4;
+            height: 267px;
+        }
+        
+        .right {
+            .col-md-12 {
+                text-align: center;
+                margin-top: 30px;
+
+                @media @desktop {
+                    margin-top: 0;
+                }
+            }
+            .col-sm-6 {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                margin-top: 10px;
+
+                @media @desktop {
+                    border-right: 1px solid #ececec;
+                    margin-top: 30px;
+                }
+
+                &:nth-child(3) {
+                    border-right: none;
+                }
+
+
+                h2 {
+                    margin-bottom: 20px;
+                }
+
+                .circle {
+                    background-color: #F7F7F7;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    justify-content: center;
+                    text-align: center;
+    
+                    p {
+                        margin: 0;
+                        font-size: 30px;
+                    }
+
+                    p.addition {
+                        font-size: 1rem;
+                        color: @turquoise;
+                    }
+                }
+            }
+            
+
+        }
+    }
+}

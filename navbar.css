@@ -1,0 +1,102 @@
+header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  background-color: white;
+}
+@media only screen and (min-width: 767px) {
+  header {
+    width: 80px;
+  }
+}
+header .logo {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin-left: -18.5px;
+  width: 35px;
+}
+@media only screen and (min-width: 767px) {
+  header .logo {
+    margin-left: -22.5px;
+    width: 45px;
+  }
+}
+header .links {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+header .links a {
+  width: 25px;
+  height: 25px;
+  font-size: .8rem;
+  border: 2px solid #dedede;
+  font-weight: 600;
+  display: flex;
+  color: #c3c3c3;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  left: 50%;
+  margin-left: 12.5px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 767px) {
+  header .links a {
+    margin-left: 25px;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+  }
+}
+header .links a.active {
+  color: #45C2C5;
+  border: 2px solid #45C2C5;
+}
+header .links a.active:after {
+  content: "";
+  display: inline;
+  height: 40px;
+  width: 3px;
+  position: absolute;
+  right: 0;
+  background: #45C2C5;
+}
+header .exportbtn {
+  background-image: url("images/export.svg");
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  margin-left: -15.5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #CFCFCF;
+}
+@media only screen and (min-width: 767px) {
+  header .exportbtn {
+    width: 30px;
+    height: 30px;
+    margin-left: -18.5px;
+    background-size: 13px;
+  }
+}
+header .exportbtn:hover {
+  background-color: #fafafa;
+}
+header .exportbtn:active {
+  background-color: #f0f0f0;
+}
+@media only screen and (min-width: 767px) {
+  header .exportbtn {
+    margin-left: -22.5px;
+    width: 45px;
+    height: 45px;
+  }
+}

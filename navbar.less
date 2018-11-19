@@ -1,0 +1,111 @@
+// Variables
+@import "colors.less";
+@import "dimensions.less";
+
+
+header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    background-color: white;
+
+    @media @desktop {
+        width: 80px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        margin-left: -18.5px;
+        width: 35px;
+                
+        @media @desktop {
+            margin-left: -22.5px;
+            width: 45px;
+        }
+    }
+
+    .links {
+        position: absolute;
+        top: 25%;
+        width: 100%;
+
+        a {
+            width: 25px;
+            height: 25px;
+            font-size: .8rem;
+            border: 2px solid #dedede;
+            font-weight: 600;
+            display: flex;
+            color: #c3c3c3;
+            align-items: center;
+            justify-content: center;
+            border-radius: 3px;
+            left: 50%;
+            margin-left: 12.5px;
+            margin-bottom: 20px;
+
+            @media @desktop {
+                margin-left: 25px;
+                width: 30px;
+                height: 30px;
+                font-size: 1rem;
+            }
+
+            &.active {
+                color: @turquoise;
+                border: 2px solid @turquoise;
+
+                &:after {
+                    content: "";
+                    display: inline;
+                    height: 40px;
+                    width: 3px;
+                    position: absolute;
+                    right: 0;
+                    background: @turquoise;
+                }
+            }
+        }
+    }
+
+    .exportbtn {
+        background-image: url("images/export.svg");
+        background-size: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 7%;
+        left: 50%;
+        margin-left: -15.5px;
+        width: 30px;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid @light-gray;
+
+        @media @desktop {
+            width: 30px;
+            height: 30px;
+            margin-left: -18.5px;
+            background-size: 13px;
+        }
+
+        &:hover {
+            background-color: darken(white, 2%)
+        }
+
+        &:active {
+            background-color: darken(white, 6%)
+        }
+
+        @media @desktop {
+            margin-left: -22.5px;
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
+

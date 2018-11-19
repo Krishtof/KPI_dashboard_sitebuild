@@ -1,0 +1,79 @@
+// Variables
+@import "colors.less";
+@import "dimensions.less";
+
+
+.usage {
+    background-color: white;
+    min-height: 336px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    .title {
+
+        h1 {
+            padding: 15px 15px 5px;
+
+            @media @desktop {
+                padding: 25px 25px 5px;
+            }
+        }
+    }
+
+    .chartrow {
+        .col-md-12 .chart {
+            min-height: 200px;
+            background-color: #e1dfe4;
+        }
+    }
+
+    .description {
+        padding: 15px;
+
+        @media @desktop {
+            padding: 25px;
+        }
+
+        .label {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .color-mark {
+                border-radius: 2px;
+                height: 10px;
+                width: 10px;
+
+                &#one {
+                    background-color: @turquoise;
+                }
+
+                &#two {
+                    background-color: @blue;
+                }
+
+                &#three {
+                    background-color: @yellow;
+                }
+
+                &#four {
+                    background-color: @red;
+                }
+            }
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                margin-left: 10px;
+
+                p {
+                    font-size: .9rem;
+                    color: #9B9B9B;
+                    letter-spacing: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

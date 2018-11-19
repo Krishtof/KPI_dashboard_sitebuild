@@ -1,0 +1,59 @@
+.content {
+  background-color: white;
+  min-height: 336px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+@media only screen and (min-width: 767px) {
+  .content {
+    padding: 25px 25px 0;
+  }
+}
+.content h1 {
+  text-align: left;
+  padding-bottom: 5px;
+}
+.content .chartsrow .left {
+  background-color: #e1dfe4;
+  min-height: 276px;
+}
+.content .chartsrow .right .col-md-12 {
+  margin-top: 30px;
+}
+@media only screen and (min-width: 767px) {
+  .content .chartsrow .right .col-md-12 {
+    margin-top: 60px;
+  }
+}
+.content .chartsrow .right .col-sm-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.content .chartsrow .right .col-sm-6 h2 {
+  text-align: center;
+}
+.content .chartsrow .right .col-sm-6 .chart {
+  height: 100px;
+  width: 100px;
+  background-color: #e1dfe4;
+  margin: 0 auto;
+}
+.content .chartsrow .right .col-sm-6 .chart.small {
+  width: 70px;
+  height: 70px;
+}
+@media only screen and (min-width: 767px) {
+  .content .chartsrow .right .col-sm-6:nth-child(2) {
+    border-left: 1px solid #ececec;
+  }
+}
+.content .chartsrow .right .col-sm-6:nth-child(3) {
+  margin-top: 20px;
+}
+@media only screen and (min-width: 767px) {
+  .content .chartsrow .right .col-sm-6:nth-child(3) {
+    margin-top: 0;
+  }
+}

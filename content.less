@@ -1,0 +1,75 @@
+// Variables
+@import "colors.less";
+@import "dimensions.less";
+
+
+
+.content {
+    background-color: white;
+    min-height: 336px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+
+    @media @desktop {
+        padding: 25px 25px 0;
+    }
+
+
+    h1 {
+        text-align: left;
+        padding-bottom: 5px;
+    }
+
+    .chartsrow {
+        .left {
+            background-color: #e1dfe4;
+            min-height: 276px;
+        }
+
+        .right {
+            .col-md-12 {
+                margin-top: 30px;
+
+                @media @desktop {
+                    margin-top: 60px;
+                }
+            }
+
+            .col-sm-6 {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                h2 {
+                    text-align: center;
+                }
+                .chart {
+                    height: 100px;
+                    width: 100px;
+                    background-color: #e1dfe4;
+                    margin: 0 auto;
+
+                    &.small {
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+
+                &:nth-child(2) {
+                    
+                    @media @desktop {
+                        border-left: 1px solid #ececec;
+                    }
+                }
+
+                &:nth-child(3) {
+                    margin-top: 20px;
+
+                    @media @desktop {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}

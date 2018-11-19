@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="40px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="KPI-dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2E" transform="translate(-18.000000, -49.000000)" fill-rule="nonzero">
+            <g id="Group-20" transform="translate(18.000000, 49.000000)">
+                <rect id="Rectangle" fill="#45C2C5" x="0" y="0" width="45" height="40" rx="2.64705882"></rect>
+                <g id="Group" transform="translate(7.000000, 6.000000)">
+                    <polygon id="Shape" fill="#C6E8EB" points="2.556188 21.6774194 0 10.1482762 14.9402259 0"></polygon>
+                    <polygon id="Rectangle" fill="#FFFFFF" points="15.0352841 0 15.0352841 27.2813242 5.30968858 17.9979541"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0.9" x="16.5" y="4.80645161" width="3.735294" height="22.2903226" rx="0.9"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0.6" x="21.6570934" y="10.9354839" width="3.735294" height="16.1612903" rx="0.9"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0.3" x="26.7356401" y="17.4516129" width="3.735294" height="9.64516129" rx="0.9"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,60 @@
+.usage {
+  background-color: white;
+  min-height: 336px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.usage .title h1 {
+  padding: 15px 15px 5px;
+}
+@media only screen and (min-width: 767px) {
+  .usage .title h1 {
+    padding: 25px 25px 5px;
+  }
+}
+.usage .chartrow .col-md-12 .chart {
+  min-height: 200px;
+  background-color: #e1dfe4;
+}
+.usage .description {
+  padding: 15px;
+}
+@media only screen and (min-width: 767px) {
+  .usage .description {
+    padding: 25px;
+  }
+}
+.usage .description .label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.usage .description .label .color-mark {
+  border-radius: 2px;
+  height: 10px;
+  width: 10px;
+}
+.usage .description .label .color-mark#one {
+  background-color: #45C2C5;
+}
+.usage .description .label .color-mark#two {
+  background-color: #4880FF;
+}
+.usage .description .label .color-mark#three {
+  background-color: #FFC400;
+}
+.usage .description .label .color-mark#four {
+  background-color: #FB545E;
+}
+.usage .description .label .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.usage .description .label .text p {
+  font-size: .9rem;
+  color: #9B9B9B;
+  letter-spacing: 0;
+  margin: 0;
+}

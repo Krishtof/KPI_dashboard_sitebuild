@@ -1,0 +1,18 @@
+.classes {
+  background-color: white;
+  min-height: 120px;
+  border-radius: 5px;
+}
+.classes h1 {
+  text-align: left;
+  padding: 15px 15px 5px;
+}
+@media only screen and (min-width: 767px) {
+  .classes h1 {
+    padding: 25px 25px 5px;
+  }
+}
+.classes .chart {
+  min-height: 100px;
+  background-color: #e1dfe4;
+}

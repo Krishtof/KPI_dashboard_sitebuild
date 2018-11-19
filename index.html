@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700" rel="stylesheet">
+
+
+    <title>KPI_dashboard_sitebuild</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link href="activations.css" rel="stylesheet">
+    <link href="content.css" rel="stylesheet">
+    <link href="usage.css" rel="stylesheet">
+    <link href="top-bar.css" rel="stylesheet">
+    <link href="classes.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Side-header -->
+    <header>
+       <img class="logo" src="images/logo.svg">
+       <div class="links">
+         <a href="#" class="active">SE</a>
+         <a href="#">PE</a>
+
+       </div>
+
+       <button class="exportbtn" href="#"></button>
+    </header>
+
+
+    <!-- Top buttons -->
+    <div class="container-fluid top-bar">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="target-switch">
+            <button class="students active">Students</button>
+            <button class="teachers">Teachers</button>
+          </div>
+
+          <div class="language-checks">
+            <input class="styled-checkbox" id="nl" type="checkbox" value="value1">
+            <label for="nl">NL</label>
+
+            <input class="styled-checkbox" id="fr" type="checkbox" value="value1">
+            <label for="fr" class="active">FR</label>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-9">
+      
+          <!-- Activations module -->
+
+          <div class="activations">
+            <div class="row dropdownrow">
+              <div class="col-md-12">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      New activations
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">New activations</a>
+                      <a class="dropdown-item" href="#">Active activations</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="row chartsrow">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="left"></div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="right">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h1>Report</h1>
+                        </div>
+                        <div class="col-sm-6">
+                          <h2>Active users</h2>
+                          <div class="circle">
+                            <p>1300</p>
+                            <p class="addition">+30</p>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h2>Activation rate</h2>
+                            <div class="circle">
+                              <p>30%</p>
+                              <p class="addition">+30</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content module -->
+          <div class="content">
+            <h1>Content</h1>
+            <div class="row chartsrow">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="left"></div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="right">
+                      <div class="row">
+                        <div class="col-md-12">
+                        </div>
+                        <div class="col-sm-6">
+                          <h2>Assignment Exercise completion rate</h2>
+                          <div class="chart">
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h2>Assignment completion rate</h2>
+                            <div class="chart small">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          
+          <!-- Usage module -->
+          <div class="usage">
+            <div class="row title">
+              <div class="col-md-12">
+                  <h1>Usage</h1>
+              </div>
+            </div>
+
+            <div class="row chartrow">
+              <div class="col-md-12">
+                <div class="chart"></div>
+              </div>
+            </div>
+
+            <div class="description">
+
+              <div class="label">
+                <div class="color-mark" id="one"></div>
+                <div class="text">
+                  <p>Once a week</p>
+                  <h3>30,5%</h3>
+                </div>
+              </div>
+
+              <div class="label">
+                <div class="color-mark" id="two"></div>
+                <div class="text">
+                  <p>More than once every two weeks</p>
+                  <h3>30,5%</h3>
+                </div>
+              </div>
+
+              <div class="label">
+                <div class="color-mark" id="three"></div>
+                <div class="text">
+                  <p>More than once a month</p>
+                  <h3>30,5%</h3>
+                </div>
+              </div>
+
+              <div class="label">
+                <div class="color-mark" id="four"></div>
+                <div class="text">
+                  <p>More than once a month</p>
+                  <h3>30,5%</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Classes module -->
+          <div class="classes">
+            <h1>Teachers with classes</h1>
+            <div class="chart"></div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
